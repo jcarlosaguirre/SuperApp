@@ -26,7 +26,7 @@
             android:title="@string/menu_camera" />
         <item
             android:id="@+id/nav_shared_pref"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_baseline_settings"
             android:title="@string/menu_preferences" />
     </group>
 </menu>
