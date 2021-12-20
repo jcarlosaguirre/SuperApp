@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calculadora"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/menu_calculadora" />
+        <item
+            android:id="@+id/nav_encuesta"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="@string/menu_encuesta" />
+        <item
+            android:id="@+id/nav_listview"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/menu_listview" />
+        <item
+            android:id="@+id/nav_sensores"
+            android:icon="?android:attr/alertDialogIcon"
+            android:title="@string/menu_sensores" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_camera" />
+        <item
+            android:id="@+id/nav_shared_pref"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_preferences" />
+    </group>
+</menu>

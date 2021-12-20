@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_calculadora">
+
+    <fragment
+        android:id="@+id/nav_calculadora"
+        android:name="com.example.superapp.ui.calculadora.CalculadoraFragment"
+        android:label="@string/menu_calculadora"
+        tools:layout="@layout/fragment_encuesta" />
+
+    <fragment
+        android:id="@+id/nav_encuesta"
+        android:name="com.example.superapp.ui.encuesta.EncuestaFragment"
+        android:label="@string/menu_encuesta"
+        tools:layout="@layout/fragment_calculadora" />
+
+    <fragment
+        android:id="@+id/nav_listview"
+        android:name="com.example.superapp.ui.listview.ListviewFragment"
+        android:label="@string/menu_listview"
+        tools:layout="@layout/fragment_listview" />
+
+    <fragment
+        android:id="@+id/nav_sensores"
+        android:name="com.example.superapp.ui.sensores.SensoresFragment"
+        android:label="@string/menu_sensores"
+        tools:layout="@layout/fragment_sensores" />
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="com.example.superapp.ui.camera.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_shared_pref"
+        android:name="com.example.superapp.ui.shared_preferences.SharedPreferencesFragment"
+        android:label="@string/menu_preferences"
+        tools:layout="@layout/fragment_shared_preferences" />
+</navigation>
